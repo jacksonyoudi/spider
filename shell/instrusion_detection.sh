@@ -1,10 +1,10 @@
 #!/bin/bash
+
+
 function redcolor()
 {
-#字体红色显示
     printf "\033[1;31;40m \n $@\033[0m\n"
 }
-
 
 function nali_install()
 {
