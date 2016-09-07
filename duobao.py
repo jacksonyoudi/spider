@@ -13,7 +13,7 @@ import xlsxwriter
 
 try:
     data = []
-    url = 'http://1.163.com/list/6-0-1-1.html'
+    url = 'http://1.163.com/list/0-0-1-4.html'
     response = urllib2.urlopen(url)
     if response.code != 200:
         print response.code
